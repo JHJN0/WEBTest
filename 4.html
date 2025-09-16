@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>H1과 A 태그 비교</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      background-color: lightgray;
+      padding: 20px;
+      margin-bottom: 40px;
+    }
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+    a:hover {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h2>1. h1 안에 a 넣기</h2>
+  <h1>
+    <a href="#">WEB</a>
+  </h1>
+  <p>👉 이 경우, <strong>텍스트 "WEB" 글자만</strong> 클릭 가능.</p>
+
+  <hr>
+
+  <h2>2. a 안에 h1 넣기</h2>
+  <a href="#">
+    <h1>WEB</h1>
+  </a>
+  <p>👉 이 경우, <strong>회색 박스 전체</strong>를 클릭 가능.</p>
+</body>
+</html>
